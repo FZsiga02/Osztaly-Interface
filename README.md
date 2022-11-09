@@ -1,0 +1,2 @@
+# Osztaly-Interface
+# Osztaly-Interface
