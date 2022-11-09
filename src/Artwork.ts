@@ -1,15 +1,13 @@
 import { artwork } from "./index";
 
-export class Statue implements artwork{
+export class Artwork implements artwork{
     title: string;
     year: number;
     price: number;
-    height: number;
 
-    constructor(title: string, year: number, price: number, height: number){
+    constructor(title: string, year: number, price: number){
         this.title = title;
         this.year = year;
         this.price = price;
-        this.height = height;
     }
 }
